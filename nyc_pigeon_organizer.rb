@@ -24,6 +24,7 @@ result = {}
   b.each do |color|
   binding.pry
   end   
+ 
  end
  end 
 result   

@@ -23,7 +23,7 @@ result = {}
     names.each do |name|
     result[name][attribute] << pigeon_attribute.to_s
     end   
-  binding.pry
+  
   end
  end 
 result   

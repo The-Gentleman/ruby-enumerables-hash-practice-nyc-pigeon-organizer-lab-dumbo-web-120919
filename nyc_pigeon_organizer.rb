@@ -12,9 +12,6 @@ result = {}
  result[name] = "huh" 
  end 
 
- 
-
-
 result   
 end 
 # {:color=>

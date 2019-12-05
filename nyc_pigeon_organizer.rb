@@ -23,8 +23,8 @@ result = {}
     b.each do |color|
     result[color][x] << a.to_s
     end   
-
- end
+  binding.pry
+  end
  end 
 result   
 end 

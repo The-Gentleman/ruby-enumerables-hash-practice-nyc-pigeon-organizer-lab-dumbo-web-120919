@@ -11,7 +11,7 @@ result = {}
  names.each do |name|  
  result[name] = "huh" 
  end 
- result[:Theo] = ['purple', 'grey']
+
  
 
 

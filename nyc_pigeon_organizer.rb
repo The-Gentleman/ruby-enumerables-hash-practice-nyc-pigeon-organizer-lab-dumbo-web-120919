@@ -21,6 +21,7 @@ result = {}
   y.each do |a, b|
    binding.pry
   
+  
   end
  end 
 result   

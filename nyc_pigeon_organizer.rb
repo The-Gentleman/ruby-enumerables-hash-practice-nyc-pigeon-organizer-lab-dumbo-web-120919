@@ -10,11 +10,14 @@ result = {}
  
  names.each do |name|  
  result[name] = {
-    => []
+   :color => [],
+   :gender => [],
+   :lives => []
  } 
  end 
- 
-
+ data.each do |x, y|
+ binding.pry
+ end 
 result   
 end 
 # {:color=>

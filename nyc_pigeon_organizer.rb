@@ -21,7 +21,7 @@ result = {}
    
   
     names.each do |name|
-    result[color][attribute] << pigeon_attribute.to_s
+    result[name][attribute] << pigeon_attribute.to_s
     end   
   binding.pry
   end

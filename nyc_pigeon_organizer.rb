@@ -11,7 +11,8 @@ result = {}
  names.each do |name|  
  result[name] = "huh" 
  end 
-
+ 
+binding.pry
 result   
 end 
 # {:color=>

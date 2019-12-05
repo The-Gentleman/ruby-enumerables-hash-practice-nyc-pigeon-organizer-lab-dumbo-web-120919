@@ -16,7 +16,12 @@ result = {}
  } 
  end 
  data.each do |x, y|
- binding.pry
+
+ 
+  y.each do |a, b|
+   binding.pry
+  
+  end
  end 
 result   
 end 

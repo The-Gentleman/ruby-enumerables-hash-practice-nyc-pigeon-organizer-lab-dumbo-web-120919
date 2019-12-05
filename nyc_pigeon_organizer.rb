@@ -15,9 +15,9 @@ result = {}
    :lives => []
  } 
  end 
- data.each do |attribute, y|
+ data.each do |attribute, hash_of_info|
  
-  y.each do |a, b|
+  hash_of_info.each do |a, b|
    
   
     b.each do |color|

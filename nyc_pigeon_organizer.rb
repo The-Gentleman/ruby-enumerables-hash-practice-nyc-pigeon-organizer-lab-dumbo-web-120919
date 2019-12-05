@@ -18,7 +18,6 @@ result = {}
  
   hash_of_info.each do |pigeon_attribute, names|
    
-  
     names.each do |name|
     result[name][attribute] << pigeon_attribute.to_s
     end   

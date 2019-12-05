@@ -20,7 +20,7 @@ result = {}
   hash_of_info.each do |pigeon_attribute, names|
    
   
-    names.each do |color|
+    names.each do |name|
     result[color][attribute] << pigeon_attribute.to_s
     end   
   binding.pry

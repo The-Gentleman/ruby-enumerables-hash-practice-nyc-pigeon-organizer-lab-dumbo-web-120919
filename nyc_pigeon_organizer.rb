@@ -17,11 +17,11 @@ result = {}
  end 
  data.each do |attribute, hash_of_info|
  
-  hash_of_info.each do |a, b|
+  hash_of_info.each do |pigeon_attribute, b|
    
   
     b.each do |color|
-    result[color][attribute] << a.to_s
+    result[color][attribute] << pigeon_attribute.to_s
     end   
   binding.pry
   end

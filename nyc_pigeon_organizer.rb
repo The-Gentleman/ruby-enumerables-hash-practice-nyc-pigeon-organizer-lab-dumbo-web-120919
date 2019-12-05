@@ -19,10 +19,12 @@ result = {}
 
  
   y.each do |a, b|
-   binding.pry
+   
   
-  
-  end
+  b.each do |color|
+  binding.pry
+  end   
+ end
  end 
 result   
 end 

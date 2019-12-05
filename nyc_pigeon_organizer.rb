@@ -6,7 +6,6 @@ female_names = data[:gender][:female]
 names = [male_names, female_names].flatten
 # names = ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky", "Queenie", "Ms. K"] 
 result = {}
- 
  names.each do |name|  
  result[name] = "huh" 
  end 

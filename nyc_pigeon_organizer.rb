@@ -16,14 +16,13 @@ result = {}
  } 
  end 
  data.each do |x, y|
-
  
   y.each do |a, b|
    
   
-  b.each do |color|
-  result[color][x] << a.to_s
-  end   
+    b.each do |color|
+    result[color][x] << a.to_s
+    end   
 
  end
  end 

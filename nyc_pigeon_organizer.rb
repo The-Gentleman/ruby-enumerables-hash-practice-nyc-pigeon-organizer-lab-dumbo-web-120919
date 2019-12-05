@@ -9,7 +9,7 @@ names = [male_names, female_names].flatten
 result = {}
  
  names.each do |name|  
- result[name] = "huh" 
+ result[name] = {} 
  end 
  
 

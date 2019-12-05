@@ -12,7 +12,7 @@ result = {}
  result[name] = "huh" 
  end 
  
-binding.pry
+
 result   
 end 
 # {:color=>
